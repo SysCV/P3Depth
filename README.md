@@ -22,8 +22,8 @@ If you find our work useful in your research please consider citing our publicat
 
 ```bibtex
 @inproceedings{P3Depth,
-  author    = {Patil, Vaishakh and Sakaridis, Christos and Liniger, Alex and Van Gool, Luc},
-  title     = {P3Depth: Monocular Depth Estimation with a Piecewise Planarity Prior},
+  author    = {Patil, Vaishakh and Sakaridis, Christos and Liniger, Alexander and Van Gool, Luc},
+  title     = {{P3Depth}: Monocular Depth Estimation with a Piecewise Planarity Prior},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2022},
 }
