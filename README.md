@@ -5,6 +5,8 @@
 > [Vaishakh Patil](https://www.trace.ethz.ch/team/members/vaishakh.html), [Dr. Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), [Dr. Alex Liniger](https://www.trace.ethz.ch/team/members/alex.html) and [Prof. Luc Van Gool](https://www.trace.ethz.ch/team/members/luc.html)
 >
 > CVPR 2022 (pdf) coming soon...
+>
+> Training and Evaluation code coming soon...
 > 
 > [Arxiv](https://arxiv.org/abs/2204.02091) ([pdf](https://arxiv.org/pdf/2204.02091v1.pdf))
 
