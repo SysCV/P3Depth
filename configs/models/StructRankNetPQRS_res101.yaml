@@ -1,0 +1,10 @@
+MODEL:
+  TYPE: 'StructRankNetPQRS'
+  BACKBONE: 'resnet101' # resnet50, resnet101, resnext50_32x4d, resnext101_32x8d
+  PQRS: True
+  # Below ones are only true if PQRS is true
+  OFFSET: True
+  OFFSET_THRESHOLD: 0.1
+  MULTISCALE_ADJUSTMENT: True
+  ITERATIVE_REFINEMENT: 3 # 0 for no steps else n and set OFFSET_THRESHOLD to low number (eg. 0.1)
+  USE_CONFIDENCE: 1 # 0 - no confidence, 1-directly use confidence, 2 - use offseted confidence

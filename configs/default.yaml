@@ -1,0 +1,39 @@
+SOLVER:
+  BASE_LR: 0.0001
+  BATCHSIZE: 16
+  NUM_WORKERS: 4
+  WEIGHT_DECAY: 0.0001
+  LR_STEP_SIZE: 20
+  LR_GAMMA: 0.1
+  EPOCH: 25
+  SAVE_INTERVAL: 1
+LOSS:
+  TYPE: 'silog_loss_variance'
+  W_depth_final: 1.0
+  DEPTH_INIT: 'silog_loss_variance'
+  W_depth_init: 0.5
+  DEPTH_OFFSET: 'silog_loss_variance'
+  W_depth_offset: 0.5
+  SSIM: False # make sure depth_offset loss is defined
+  W_depth_SSIM: 0.5
+  ONLY_COMPLETED_DEPTH_SUPERVISION: False
+  PQRS: '' # PQRS options: plane_pqrs, l1_pqrs
+  NU: 1.0
+  KSI: 1.0
+  MULTISCALE: ''
+  SMOOTH: ''
+  LAMBDA: 1.0
+  PATCH: ''
+  PATCH_SIZE: 32
+  RHO: 1.0
+SEED: 1
+TEST:
+  BATCHSIZE: 1
+  SAVE_RESULTS: False
+  SAVE_POINTCLOUDS: False
+  SAVE_PQRS: FALSE
+  SAVE_OFFSETS_CONFIDENCE: FALSE
+DEVICE: 'cuda'
+CMAP: 'rainbow'
+OUTPUT_DIR: '/output/'
+RESUME: ''
